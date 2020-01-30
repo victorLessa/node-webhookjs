@@ -4,11 +4,6 @@
 
 # Instalação
 
-```bash
-npm i bbcap-notify-error
-```
-
-
 
 # Exemplo
 
