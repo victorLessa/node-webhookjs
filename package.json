@@ -1,6 +1,6 @@
 {
   "name": "node-webhookjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This project was created to facilitate chat integration",
   "main": "index.js",
   "scripts": {

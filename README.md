@@ -38,7 +38,7 @@ function methodName(req, res) {
     try{
     	...
     }catch(error) {
-        telegram({ url: '<URL>' })
+        teams({ url: '<URL>' })
           .send({message: "Teste"}, "nameMethod", "nameProject")
           .then(() => {...})
           .catch(() => {...})
