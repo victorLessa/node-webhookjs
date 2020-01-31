@@ -3,28 +3,46 @@
 * [Axios](https://github.com/axios/axios)
 
 # Instalação
-
+```js
+  npm i webhook
+```
 
 # Exemplo
 
 ```js
-const { teams } = require('webhook')
-// const Webhook = require('webhook')({url: '<URL_WEB_HOOK>'})
+const { telegram, teams } = require('webhook')
 // Instance.<method>
 ```
 
-
-
-## Enviar mensagem de texto
+## Enviar mensagem de texto usando o telegram
 
 ```js
 function methodName(req, res) {
     try{
     	...
     }catch(error) {
-        Webhooks.notifyText(error, method, packageName) // method = nome da função
-          .then(result => {...})
-          .catch(error => {...})
+        telegram({
+          token: '<TOKEN>', 
+          chatId: '<CHAT_ID>'})
+          .send('Message')
+          .then(() => {...})
+          .catch(() => {...})
      }
 }
 ```
+
+## Enviar mensagem de texto usando o teams
+
+```js
+function methodName(req, res) {
+    try{
+    	...
+    }catch(error) {
+        telegram({ url: '<URL>' })
+          .send({message: "Teste"}, "nameMethod", "nameProject")
+          .then(() => {...})
+          .catch(() => {...})
+     }
+}
+```
+
