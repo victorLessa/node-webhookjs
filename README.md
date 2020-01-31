@@ -4,7 +4,7 @@
 
 # Instalação
 ```js
-  npm i webhook
+  npm i node-webhookjs
 ```
 
 # Exemplo
