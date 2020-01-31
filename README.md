@@ -10,7 +10,7 @@
 # Exemplo
 
 ```js
-const { telegram, teams } = require('webhook')
+const { telegram, teams } = require('node-webhookjs')
 // Instance.<method>
 ```
 

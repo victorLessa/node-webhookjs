@@ -1,8 +1,8 @@
 {
-  "name": "webhook",
-  "version": "0.0.1",
+  "name": "node-webhookjs",
+  "version": "1.0.0",
   "description": "This project was created to facilitate chat integration",
-  "main": "lib",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -17,5 +17,9 @@
   "files": [
     "lib/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorLessa/node-webhookjs.git"
+  },
   "devDependencies": {}
 }
