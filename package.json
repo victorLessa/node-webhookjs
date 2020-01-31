@@ -17,7 +17,5 @@
   "files": [
     "lib/**/*"
   ],
-  "devDependencies": {
-    "jest": "^25.1.0"
-  }
+  "devDependencies": {}
 }
